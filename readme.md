@@ -1,5 +1,5 @@
 
-ommand line only - no GUI wanted or needed. Please don't do a GUI - Only Bash
+Command line only - no GUI wanted or needed. Please don't do a GUI - Only Bash
 
 Must run on linux at the command line, accepting a command line parameter and returning the data desired - Bash file can run anywhere
 
