@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 export address=$1
 
 echo "Printing out Company Name for Mac Address"
