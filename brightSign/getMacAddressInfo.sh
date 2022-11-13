@@ -1,5 +1,7 @@
-!/bin/bash
+#!/bin/bash
+
 export address=$1
+
 
 echo "Printing out Company Name for Mac Address"
 curl https://api.macaddress.io/v1\?apiKey\=$API_KEY\&output\=json\&search\=$address  | jq ."vendorDetails | .oui, .companyName" 
