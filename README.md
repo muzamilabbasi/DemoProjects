@@ -5,13 +5,13 @@ This challenge is to do a simple REST implementation of https://macaddress.io/. 
 # Directory Structure
 The Directory structure for this project is as defined.
 
-[IMAGE](https://github.com/muzamilabbasi/DemoProjects/issues/1)
+![201507431-6f4d95b3-07c7-4404-92b1-978b2b757134](https://user-images.githubusercontent.com/2918618/201507624-71b8019a-5d33-45c2-958c-c52bf1ff595b.png)
 
 
-api_key.env: This file contains the api_key as an environment variable
-Dockerfile: The Dockerfile has all the dependencies it requires to spin it up in a container
-getMacAddressInfo.sh: Takes one parameter which is a MAC Address and returns CompanyName with MAC Address
-set_env.sh: This is environment setup if you running the 'getMacAddressInfo.sh' locally without Docker
+- api_key.env: This file contains the api_key as an environment variable
+- Dockerfile: The Dockerfile has all the dependencies it requires to spin it up in a container
+- getMacAddressInfo.sh: Takes one parameter which is a MAC Address and returns CompanyName with MAC Address
+- set_env.sh: This is environment setup if you running the 'getMacAddressInfo.sh' locally without Docker
 
 # Dependecies:
 
